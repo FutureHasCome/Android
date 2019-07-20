@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">三味书屋</string>
+    <string name="cover_text">这次又差一点就可以追上学霸了</string>
+    <string name="cover_button">立  即  体  验</string>
+    <string name="cover_view">三味</string>
+    <String name="max">101dp</String>
+</resources>

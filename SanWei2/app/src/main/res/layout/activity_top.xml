@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mybook.asus.sanwei.LoginActivity"
+    android:id="@+id/hjj"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/top_view"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/top_view"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+
+
+        android:contentDescription="@string/top_viewa" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/top_buttom"
+
+        android:background="@android:color/background_light"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:id="@+id/bottom1"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="30dp"
+            android:baselineAligned="false"
+            android:layout_height="100dp"
+            android:background="@android:color/background_light">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b1">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="0dp"
+                    app:srcCompat="@drawable/cangshu"
+                    android:id="@+id/guancang"
+                    android:layout_weight="1.52"
+                    android:background="@drawable/topround"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:id="@+id/guancang_txt"
+                    android:text="@string/guancang_txt"
+                    android:textAlignment="center"
+                    android:layout_width="80dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b2">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="0dp"
+                    app:srcCompat="@drawable/oo"
+                    android:id="@+id/fuwu"
+                    android:layout_weight="0.97"
+                    android:background="@drawable/topround"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:text="@string/fuwu_txt"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fuwu_txt"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b3">
+
+                <ImageButton
+                    android:layout_width="81dp"
+                    android:layout_height="0dp"
+                    app:srcCompat="@drawable/xiaoxi"
+                    android:id="@+id/xiaoxi"
+                    android:background="@drawable/topround"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights"
+                    android:layout_weight="1.30" />
+
+                <TextView
+                    android:text="@string/xiaoxi"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/xiaoxi_txt"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:layout_marginBottom="71dp"
+            android:id="@+id/bottom2"
+            android:paddingLeft="30dp"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b10">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    app:srcCompat="@drawable/yuding"
+                    android:id="@+id/shuzi"
+                    android:layout_weight="2.10"
+                    android:background="@drawable/topround"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:text="@string/shuzi_txt"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shuzi_txt"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b4">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="0dp"
+                    app:srcCompat="@drawable/tuijian"
+                    android:id="@+id/cankao"
+                    android:background="@drawable/topround"
+                    android:layout_weight="2.01"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:text="@string/cankao"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cankao_txt"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b5">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    app:srcCompat="@drawable/cangshu"
+                    android:id="@+id/shumu"
+                    android:background="@drawable/topround"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:text="@string/shumu"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shumu_txt"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/bottom4"
+            android:baselineAligned="false"
+            android:background="@color/colorPrimaryDark"
+            android:backgroundTint="@android:color/background_light">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b7"
+                android:background="@android:color/background_light">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/jj"
+                    android:background="@android:color/background_light"
+                    tools:ignore="NestedWeights" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/cangshu"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/shujia"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:text="@string/shujia_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shujia_txt"
+                    android:layout_weight="1"
+
+                    android:paddingLeft="40dp"
+                    android:textColor="@android:color/background_light"
+                    android:background="@color/colorPrimaryDark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="19dp"
+                android:orientation="vertical"
+                android:layout_width="116dp"
+                android:layout_height="70dp"
+                android:id="@+id/b11"
+                android:paddingLeft="10dp"
+                android:background="@color/colorPrimary">
+
+                <ImageButton
+                    android:layout_height="80dp"
+                    android:layout_marginTop="-20dp"
+                    app:srcCompat="@drawable/account"
+                    android:background="@drawable/zhuye"
+                    android:id="@+id/zhuye"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="InefficientWeight,NestedWeights"
+                    android:layout_width="80dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/b9"
+                android:background="@android:color/background_light">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/fg"
+                    tools:ignore="NestedWeights"
+                    android:background="@android:color/background_light" />
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/zhanghu"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/zhanghu"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/top_viewa"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:text="@string/zhanghu_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/zhanghu_txt"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:background="@color/colorPrimaryDark" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BookMark</string>
+    <string name="search_baidu">百度搜索</string>
+    <string name="search_office">学校教务处</string>
+    <string name="search_grade">学校教务处微信</string>
+    <string name="TestBaidu">http://www.baidu.com</string>
+    <string name="but_swith">跳转</string>
+    <string name="mark">输入标签名</string>
+    <string name="mark_url">输入网址</string>
+    <string name="but_set">确定</string>
+</resources>

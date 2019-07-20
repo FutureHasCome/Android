@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">三味书屋</string>
+    <string name="cover_text">这次又差一点就可以追上学霸了</string>
+    <string name="cover_button">立  即  体  验</string>
+    <string name="cover_view">三味</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+
+    <string name="prompt_password">密码：</string>
+    <string name="action_sign_in">登录</string>
+    <string name="login_im">登录</string>
+    <string name="login_in">密码</string>
+    <string name="login_edit">账号：</string>
+    <string name="login_reg">注册</string>
+    <string name="img">logo</string>
+    <string name="top_view">三味书屋</string>
+    <string name="top_viewa">西南财经大学的图书馆</string>
+    <string name="guancang_txt">馆藏查询</string>
+    <string name="fuwu_txt">服务指南</string>
+    <string name="xiaoxi">消息通知</string>
+    <string name="shuzi_txt">数字资源</string>
+    <string name="cankao">参考咨询</string>
+    <string name="shumu">书目荐购</string>
+    <string name="shejiao_txt">社交</string>
+    <string name="shujia_txt">我的书架</string>
+    <string name="zhuye_txt">主页</string>
+    <string name="zhanghu_txt">我的账户</string>
+
+</resources>
